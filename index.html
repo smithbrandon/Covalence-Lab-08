@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class='pg-wrapper'>
+        <div class='containr'>
+            <div id=leftBar>
+            <h3>Shape Measurement(s)</h3>
+                <div class='control'>
+                    <label for="rectangle">Rectangle: </label>
+                    <input type="text" id="rectangleW" placeholder="Width">
+                    <input type="text" id="rectangleH" placeholder="Hieght">
+                    <button id='rect'>Add Shape</button>
+                </div>
+                <div class='control'>
+                    <label for="square">Square: </label>
+                    <input id="square" placeholder="side length">
+                    <button id='sq'>Add Shape</button>
+                </div>
+                <div class='control'>
+                    <label for="circle">Circle: </label>
+                    <input type="text" id="circle" placeholder="radius">
+                    <button id='cir'>Add Shape</button>
+                </div>
+                <div class='control'>
+                    <label for="triangle">Triangle: </label>
+                    <input type="text" id="triangle" placeholder="height">
+                    <button id='tri'>Add Shape</button>
+                    <script src="script.js"></script>
+                </div>
+                <hr>
+                <h3>Shape Properties: </h3>
+                <div class='control'>
+                    <h4>Shape Name: <span id="name"></span></h4>
+                </div>
+                <div class='control'>
+                    <h4>Width: <span id="wid"></span></h4>
+                </div>
+                <div class='control'>
+                    <h4>Height: <span id="hei"></span></h4>
+                </div>
+                <div class='control'>
+                    <h4>Radius: <span id="rad"></span></h4>
+                </div>
+                <div class='control'>
+                    <h4>Area: <span id="area"></span></h4>
+                </div>
+                <div class='control'>
+                    <h4>Perimeter: <span id="peri"></span></h4>
+                </div>
+            </div>
+            <div id="pad">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
